@@ -1,0 +1,101 @@
+header{
+    background-color: #0c1824;
+    height: 100px;
+    width: 100vw;
+}
+#elementos-header{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -16%;
+    position: relative;
+    right: 26em;
+}
+#botao-entrar{
+    background-color: #0c1824 ;
+    border: 2px solid #fc98c1;
+    color: white;
+}
+#botao-entrar:hover{
+    background-color: #a22c61;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#logo{
+    scale: 15%;
+}
+#barra-pesquisa{
+    background-color:rgb(25, 48, 71);
+    border: 2px solid #fd499a;
+    border-radius: 10px;
+    padding: 12px;
+    width: 35em;
+    position: relative;
+    right: 25%;
+}
+#icones-header{
+    display: flex;
+    justify-content: space-between;
+    gap: 80%;
+    position: relative;
+    right: 20%;
+    scale: 95%;
+}
+#configuracao{
+    position: relative;
+    right: 7.5em;
+    margin-right: 3em;
+}
+#barra-pesquisa::placeholder{
+    color: #b3c2d8e8;
+    font-size: 1.1rem;
+}
+.botao-header{
+    padding: 12px;
+    width: 7em;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    position: relative;
+}
+#botao-entrar{
+    background-color: #fd499a;
+    border: #fd499a;
+    cursor: pointer;
+}
+#botao-contato{
+    background-color: #fff;
+    color: #123;
+    margin-right: 15px ;
+    cursor: pointer;
+    border: none;
+}
+#botao-contato:hover{
+    background-color: rgb(126, 164, 203);
+}
+#lupa{
+    position: relative;
+    right: 10%;
+    top: 2vh;
+    scale: 90%;
+}
+
+.paginaSobre {
+    cursor: pointer;
+    position: relative;
+    font-size: 1.2rem;
+    margin-right: 0.75vw;
+    right: 200px;
+    transition: 0.3s ease;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.paginaSobre:hover{
+    color: #fc98c1;
+}
